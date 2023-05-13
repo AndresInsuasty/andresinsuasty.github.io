@@ -1,8 +1,0 @@
-Fuents de letra: Montserrat, Open Sans
-Colores: 
-    Azul:#1bb1dc, 
-    Morado:#555186,
-    Blanco:#fff,
-    negro:#444,
-    cafe: #BF5338,
-    verde: #49901F
