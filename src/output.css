@@ -559,6 +559,11 @@ video {
   margin-right: auto;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .-ml-1 {
   margin-left: -0.25rem;
 }
@@ -623,6 +628,10 @@ video {
   height: 1rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -659,8 +668,16 @@ video {
   width: 1rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .flex-wrap {
@@ -669,6 +686,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -777,6 +798,31 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -828,8 +874,26 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
 .hover\:bg-\[\#F7BE38\]\/90:hover {
   background-color: rgb(247 190 56 / 0.9);
+}
+
+.hover\:text-gray-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .focus\:ring-4:focus {
@@ -840,6 +904,20 @@ video {
 
 .focus\:ring-\[\#F7BE38\]\/50:focus {
   --tw-ring-color: rgb(247 190 56 / 0.5);
+}
+
+@media (min-width: 640px) {
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
@@ -860,4 +938,28 @@ video {
   .dark\:focus\:ring-\[\#F7BE38\]\/50:focus {
     --tw-ring-color: rgb(247 190 56 / 0.5);
   }
+}
+
+.\[\&\>svg\]\:h-7>svg {
+  height: 1.75rem;
+}
+
+.\[\&\>svg\]\:w-7>svg {
+  width: 1.75rem;
+}
+
+.\[\&\>svg\]\:fill-\[\#333\]>svg {
+  fill: #333;
+}
+
+.\[\&\>svg\]\:fill-\[\#c13584\]>svg {
+  fill: #c13584;
+}
+
+.\[\&\>svg\]\:fill-\[\#0077b5\]>svg {
+  fill: #0077b5;
+}
+
+.\[\&\>svg\]\:fill-\[\#ff0000\]>svg {
+  fill: #ff0000;
 }
